@@ -9,3 +9,6 @@ console.log(`Adicionando o valor 5 = [${array}]`)
 let pos=2
 console.log(array.splice(pos,array.length))
 console.log(array)
+let pos1 = 1;
+array.splice(pos1,0,'teste')
+console.log(array)
